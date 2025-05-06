@@ -114,41 +114,29 @@ main {
     color: #fff;
 }
 
-/* Resons section */
+/* Reasons section */
 #reasons {
-    background-color: yellow;
     width: 90%;
     margin: 20px auto;
 }
 
 #reasons h2 {
-    font-size: 280%;
+    margin-bottom: 20px;
     text-align: center;
+    font-size: 280%;
 }
 
-#benefits {
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
     margin-bottom: 20px;
-    border: 1px solid blue;
 }
 
-#benefits-physical {
-    border: 1px solid salmon;
+#benefits p {
+    padding: 0 20px;
 }
 
-#benefits-physical div {
-    margin: 20px 0;
-}
-
-#benefits-mental {
-    border: 1px solid salmon;
-}
-
-#benefits-mental div {
-    margin-bottom: 20px;
-    background-color: lightblue;
-}
-
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
