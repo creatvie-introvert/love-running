@@ -114,6 +114,18 @@ main {
     color: #fff;
 }
 
+/* Resons section */
+#reasons {
+    background-color: yellow;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
