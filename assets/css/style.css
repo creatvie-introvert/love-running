@@ -137,7 +137,6 @@ main {
 
 #benefits-physical div {
     margin: 20px 0;
-    background-color: lightblue;
 }
 
 #benefits-mental {
@@ -147,6 +146,11 @@ main {
 #benefits-mental div {
     margin-bottom: 20px;
     background-color: lightblue;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
