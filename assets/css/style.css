@@ -197,6 +197,57 @@ main {
     line-height: 0;
 }
 
+/* Signup page */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background: url(../images/signup-image.webp) no-repeat center center / cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+#signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    margin: 20px 10px;
+    padding: 30px;
+}
+
+.text-input {
+    height: 25px;
+    width: 100%;
+    padding: 0 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 32px 15px;
+    margin-top: 20px;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
